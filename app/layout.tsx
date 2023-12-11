@@ -31,7 +31,7 @@ export default function RootLayout({
               </Link>
             </div>
             <div
-              className="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+              className="!visible mt-2 flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
               id="navbarSupportedContent3"
               data-te-collapse-item
             >
