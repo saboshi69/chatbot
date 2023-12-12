@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} h-full`}>
         <nav
           className="relative flex w-full flex-nowrap items-center justify-between bg-[#FBFBFB] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
           data-te-navbar-ref
@@ -96,6 +96,9 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
+        <footer className="bg-[#525252] text-center absolute w-full bottom-0 left-0 text-white">
+          Group 6 - Comp318{" "}
+        </footer>
       </body>
     </html>
   );
